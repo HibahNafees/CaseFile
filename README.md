@@ -5,6 +5,7 @@ A single-page detective game. Pick a case file, read the brief, visit the scenes
 20 fictional cases across Easy, Standard and Hard difficulty: murders, thefts, frauds, a kidnapping, an arson, a lighthouse disappearance and more.
 
 **Play it:**
+- https://hibah-casefile.vercel.app
 - https://hibahnafees.github.io/CaseFile/
 - https://66-135-1-187.sslip.io/casefile
 
@@ -27,8 +28,9 @@ python3 -m http.server 8000
 
 ## Deploying
 
-The page is served two ways:
+The page is served three ways:
 
+- **Vercel** (`hibah-casefile.vercel.app`): deploys automatically on every push to `main`.
 - **GitHub Pages** from the `main` branch root.
 - **devbox** (`66-135-1-187.sslip.io`): the server keeps a clone of this repo at `/var/www/casefile`, and nginx serves `/casefile` from it. To update the live copy after pushing:
 
